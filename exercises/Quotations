@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
-<title>My HTML Page</title>
+<title>My Quotations Page</title>
 <body>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h1>MEMES</h1>
+<p>Shakespear once said: <q>No.</q></p>
+<p>I said: <q>Suh MY DUDESSS.</q></p>
+<p>Thomas Jefferson Said: <q>I didn't own slaves.</q></p>
+   <a href="http://thewebsiteisalie.github.io/exercises/exercises.html">Excersises Again </a>
+
 </body>
 </html>
