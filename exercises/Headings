@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-<title>My HTML Page</title>
+<title>My Headings Page</title>
 <body>
 <h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h6>This is a heading, but noone cares because it is small.</h6>
+<h4>I made this one bigger</h4>
+
+  <a href="https://thewebsiteisalie.github.io/exercises/index.html">Exercises</a>
 </body>
 </html>
