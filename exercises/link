@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title>LINKSSSSS</title>
+<body>
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+ <a href="www.google.com">Learn something</a>
+  <a href="www.ifunny.com">Memes</a>
+   <a href="www.youtube.com">Moving Memes</a>
+ 
+
+</body>
+</html>
