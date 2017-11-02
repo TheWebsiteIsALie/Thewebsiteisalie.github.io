@@ -1,3 +1,28 @@
 p {
 	color:red;
 }
+
+h1 {
+	color:DodgerBlue;
+	font-family: arial;
+}
+
+#num1 {
+	text-align: center;
+	font-family: verdana;
+}
+
+#num2 {
+	text-align: right;
+	color:pink;
+}
+
+.nien {
+	color:orange;
+	text-align: right;
+}
+
+.da p {
+	color:pink
+	text-align: center;
+}
