@@ -1,4 +1,4 @@
-p {
+h4 {
 	color:red;
 }
 
@@ -7,22 +7,37 @@ h1 {
 	font-family: arial;
 }
 
-#num1 {
+h6 {
+	color:Green;
 	text-align: center;
+}
+#num1 {
+	text-align: left;
 	font-family: verdana;
+	color:orange
 }
 
 #num2 {
-	text-align: right;
+	text-align: center;
 	color:pink;
+}
+
+#num3 {
+	text-align: right; 
+	color:yellow;
 }
 
 .nien {
 	color:orange;
-	text-align: right;
+	text-align: left
 }
 
 .da p {
 	color:pink;
+	text-align: center
+}
+
+.so {
+	color:blue;
 	text-align: center;
 }
