@@ -33,14 +33,15 @@
     
 }
 	h2 {
-		padding-top: 12px;
-    padding-bottom: 12px;
+		padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #CAF50;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: red;
 		
-	}
+
+}
 	h3 {
 		text-align: center;
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -52,6 +53,7 @@
 		font-family: verdana, Geneva, sans-serif;
 		color:black;
 }
+		
 #a { 
 		text-align: center;
 }
