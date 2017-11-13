@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Look Here</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" /><!--styles is css sheet-->
   </head>
   <body>
+  	<!-- styles: b1 is starting table, hs are the headers, and a&b are for the displays-->
   	<h1>HTML Reference Page</h1>
+  	<!-- Start of the table-->
     <table id="B1">
     	<tr>
     		<th>Name</th>
@@ -99,10 +101,8 @@
     		<td>&lt;/div&gt;</td>
     		<td>&lt;div&gt;Here is a seperate block. &lt;/div&gt;</td>
     	</tr>
-    	
-    	
-    </table>
-   
+     </table>
+   <!-- End table, start of lists-->
    
     <h2 id="A1">HTML Element</h2>
     <h3>Description</h3>
@@ -125,9 +125,9 @@
     <h3>Example</h3>
     <p>You would use this whenever you want to create a title or header. You would surround the sentence you want to make into a header, like when you want to give a titile like 'Welcome to my page' onto your webpage</p>
     <h3>Display</h3>
-    <h1>This is the biggest header.</h1>
-    <h3>This is the middle header.</h3>
-    <h6>This is the smallest header you can make.</h6>
+    <h4 id="a">This is a big header.</h4>
+    <h5 id="a">This is the middle header.</h5>
+    <h6 id="a">This is the smallest header you can make.</h6>
     <p><a href= "https://www.w3schools.com/html/html_headings.asp">W3Schools</a></p>
     <hr>
     
@@ -247,7 +247,7 @@
     <h3>Example</h3>
     <p>You would use this when you want to have a im age in your page that helps show your point of the page.</p>
     <h3>Display</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYRupJ3gr54VZ-yWB8obQS8D-NVnRpZ_TJhdJkqBzV533Hr6uw">
+    <img id="b" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYRupJ3gr54VZ-yWB8obQS8D-NVnRpZ_TJhdJkqBzV533Hr6uw">
     <p><a href= "https://www.w3schools.com/tags/tag_hr.asp">W3Schools</a></p>
     <hr>
     
@@ -260,7 +260,7 @@
     <h3>Example</h3>
     <p>You would use this when you want to list information about the topic you are discussing on your page, and it would be useful if you wanted to list all of the types of donuts.</p>
     <h3>Display</h3>
-    <ul>
+    <ul id="b">
     	<li>Tacos</li>
     	<li>Burritos</li>
     	<li>Nachos</li>
@@ -277,7 +277,7 @@
     <h3>Example</h3>
     <p>You would use this when you want to make a table about the statistics you gathered for a project.</p>
     <h3>Display</h3>
-    <table>
+    <table id="b"><!-- b on this and the list to change color and font-->
     	<tr>
     		<th>Burrito People</th>
     		<th>Nacho People</th>
