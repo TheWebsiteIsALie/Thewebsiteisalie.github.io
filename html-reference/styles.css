@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+#B1 td, #B1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#B1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#B1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#B1 td, #B1 th{
+    border: .5px solid black;
+}
+h1 {
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    
+}
+	
+}
+	</style>
+</head>
+<body>
