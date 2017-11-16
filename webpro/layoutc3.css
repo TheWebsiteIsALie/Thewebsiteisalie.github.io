@@ -40,7 +40,8 @@ body {
 
 /* indicate active page on nav */
 .active {
-    color: red;
+    background-color:#000000;
+    overflow: auto;
 }
 
 /* A - Create three unequal columns that floats next to each other */
