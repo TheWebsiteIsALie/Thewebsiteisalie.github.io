@@ -5,28 +5,35 @@
 body {
   margin: 0;
   background-color:#000000;
+  font-family: "Trebuchet MS";
+  color: red;
 }
+/* captions */
+.dd {
+	color: DodgerBlue;
+}
+
 
 /* Style the header */
 .header {
-    padding: 50px;
-    text-align: center;
-    font-family: "Trebuchet MS";
     color: red;
+    padding: 25px;
+    text-align: center;
+    
 }
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: red;
-    font-family: "Trebuchet MS";
+    
 }
 
 /* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,39 +41,85 @@ body {
 
 /* Change color on hover */
 .topnav a:hover:not(.active) {
-	  overflow: hidden;
-    background-color: black;
+    background-color: #000000;
+    color: white;
+}
+.a {
+	text-align: left;
+	color: DodgerBlue;
+}
+.a2 {
+	text-align: center;
+	color: DodgerBlue;
+}
+.a1 {
+	margin:10px;
+	color: DodgerBlue;
+}
+	/* List on Spoilers*/
+.olq {
+    background: DodgerBlue;
+    padding: 25px;
+    list-style-type: upper-roman;
+    border: dashed red 5px;
+}
+.oll {
+    background: red;
+    padding: 25px;
+    margin-left: 35px;
+    color: black;
+    overflow:hidden;
+}
+.dd1 {
+	text-align: center;
+}
+/* all table stuff */
+table {
+	border:4px dashed red;
+	padding:25px;
+	border-collapse: collapse;
+	background-color:#000000;
+	color: red;
+}
+.a3 {
+	color: DodgerBlue;
+}
+/* left page 1*/
+.cc {
+	font-size:20px;
+	color: DodgerBlue;
+}
+.list1 {
+	color: DodgerBlue;
 }
 
 /* indicate active page on nav */
-.active {
-    background-color:#000000;
-    
+#activepage {
+    overflow: visible;
+    background-color: #000000;
 }
 
 /* A - Create three unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
-    color: red;
-    font-family:"Trebuchet MS";
 }
 
 /* Left and right column */
 .column.side {
     width: 25%;
-    background-color:#000000;
-    color: red;
-    font-family:"Trebuchet MS";
+    
 }
 
 /* Middle column */
 .column.middle {
     width: 50%;
-    background-color:#000000;
-    color: red;
-    font-family:"Trebuchet MS";
+    color:red;
     text-align: center;
+    
+}
+.header {
+	font-size:25px;
 }
 
 /* Clear floats after the columns */
@@ -74,20 +127,13 @@ body {
     content: "";
     display: table;
     clear: both;
-    background-color:#000000;
-    
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-     .colum.middle .colum.side{
+    .column.side, .column.middle {
         width: 100%;
-        background-color: #000000;
     }
-}
-/* footer line */
-hr {
-	color: red;
 }
 
 /* Style the footer */
@@ -95,4 +141,3 @@ hr {
     background-color: #000000;
     padding: 10px;
     text-align: center;
-}
